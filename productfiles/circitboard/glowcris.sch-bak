@@ -25,10 +25,10 @@ F 3 "" H 1650 550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L power:GND #PWR06
 U 1 1 5E4E9B20
 P 850 1150
-F 0 "#PWR04" H 850 900 50  0001 C CNN
+F 0 "#PWR06" H 850 900 50  0001 C CNN
 F 1 "GND" V 855 1022 50  0000 R CNN
 F 2 "" H 850 1150 50  0001 C CNN
 F 3 "" H 850 1150 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 2250 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR05
+L power:VCC #PWR07
 U 1 1 5E4EA475
 P 2250 1150
-F 0 "#PWR05" H 2250 1000 50  0001 C CNN
+F 0 "#PWR07" H 2250 1000 50  0001 C CNN
 F 1 "VCC" V 2267 1278 50  0000 L CNN
 F 2 "" H 2250 1150 50  0001 C CNN
 F 3 "" H 2250 1150 50  0001 C CNN
@@ -58,25 +58,25 @@ F 3 "" H 2250 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW1
+L kbd:SW_PUSH SW5
 U 1 1 5E4EA8DD
-P 1000 2550
-F 0 "SW1" H 1000 2805 50  0000 C CNN
-F 1 "SW_PUSH" H 1000 2714 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 1000 2550 50  0001 C CNN
-F 3 "" H 1000 2550 50  0000 C CNN
-	1    1000 2550
+P 6000 2550
+F 0 "SW5" H 6000 2805 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 2714 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 6000 2550 50  0001 C CNN
+F 3 "" H 6000 2550 50  0000 C CNN
+	1    6000 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D1
+L Device:D_Small D5
 U 1 1 5E4EB23D
-P 1300 2650
-F 0 "D1" V 1346 2582 50  0000 R CNN
-F 1 "D_Small" V 1255 2582 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 1300 2650 50  0001 C CNN
-F 3 "~" V 1300 2650 50  0001 C CNN
-	1    1300 2650
+P 6300 2650
+F 0 "D5" V 6346 2582 50  0000 R CNN
+F 1 "D_Small" V 6255 2582 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 6300 2650 50  0001 C CNN
+F 3 "~" V 6300 2650 50  0001 C CNN
+	1    6300 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -103,38 +103,36 @@ F 3 "" H 850 1050 50  0001 C CNN
 $EndComp
 Text GLabel 2250 1050 2    50   Input ~ 0
 reset
-Text GLabel 850  850  0    50   Input ~ 0
-LED
 NoConn ~ 850  950 
 $Comp
-L kbd:SW_PUSH SW10
+L kbd:SW_PUSH SW29
 U 1 1 5E4F1DAF
-P 1000 3100
-F 0 "SW10" H 1000 3355 50  0000 C CNN
-F 1 "SW_PUSH" H 1000 3264 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 1000 3100 50  0001 C CNN
-F 3 "" H 1000 3100 50  0000 C CNN
-	1    1000 3100
+P 1000 5300
+F 0 "SW29" H 1000 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 1000 5464 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 1000 5300 50  0001 C CNN
+F 3 "" H 1000 5300 50  0000 C CNN
+	1    1000 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D10
+L Device:D_Small D29
 U 1 1 5E4F1DB5
-P 1300 3200
-F 0 "D10" V 1346 3132 50  0000 R CNN
-F 1 "D_Small" V 1255 3132 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 1300 3200 50  0001 C CNN
-F 3 "~" V 1300 3200 50  0001 C CNN
-	1    1300 3200
+P 1300 5400
+F 0 "D29" V 1346 5332 50  0000 R CNN
+F 1 "D_Small" V 1255 5332 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 1300 5400 50  0001 C CNN
+F 3 "~" V 1300 5400 50  0001 C CNN
+	1    1300 5400
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1200 2750 0    50   Input ~ 0
 row1
 $Comp
-L kbd:SW_PUSH SW2
+L kbd:SW_PUSH SW1
 U 1 1 5E4FC985
 P 2000 2550
-F 0 "SW2" H 2000 2805 50  0000 C CNN
+F 0 "SW1" H 2000 2805 50  0000 C CNN
 F 1 "SW_PUSH" H 2000 2714 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 2000 2550 50  0001 C CNN
 F 3 "" H 2000 2550 50  0000 C CNN
@@ -142,10 +140,10 @@ F 3 "" H 2000 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D2
+L Device:D_Small D1
 U 1 1 5E4FC98F
 P 2300 2650
-F 0 "D2" V 2346 2582 50  0000 R CNN
+F 0 "D1" V 2346 2582 50  0000 R CNN
 F 1 "D_Small" V 2255 2582 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 2300 2650 50  0001 C CNN
 F 3 "~" V 2300 2650 50  0001 C CNN
@@ -153,10 +151,10 @@ F 3 "~" V 2300 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW11
+L kbd:SW_PUSH SW6
 U 1 1 5E4FC999
 P 2000 3100
-F 0 "SW11" H 2000 3355 50  0000 C CNN
+F 0 "SW6" H 2000 3355 50  0000 C CNN
 F 1 "SW_PUSH" H 2000 3264 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 2000 3100 50  0001 C CNN
 F 3 "" H 2000 3100 50  0000 C CNN
@@ -164,10 +162,10 @@ F 3 "" H 2000 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D11
+L Device:D_Small D6
 U 1 1 5E4FC9A3
 P 2300 3200
-F 0 "D11" V 2346 3132 50  0000 R CNN
+F 0 "D6" V 2346 3132 50  0000 R CNN
 F 1 "D_Small" V 2255 3132 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 2300 3200 50  0001 C CNN
 F 3 "~" V 2300 3200 50  0001 C CNN
@@ -175,32 +173,32 @@ F 3 "~" V 2300 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW20
+L kbd:SW_PUSH SW12
 U 1 1 5E4FC9AE
-P 2000 3600
-F 0 "SW20" H 2000 3855 50  0000 C CNN
-F 1 "SW_PUSH" H 2000 3764 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 2000 3600 50  0001 C CNN
-F 3 "" H 2000 3600 50  0000 C CNN
-	1    2000 3600
+P 2000 3650
+F 0 "SW12" H 2000 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 3814 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 2000 3650 50  0001 C CNN
+F 3 "" H 2000 3650 50  0000 C CNN
+	1    2000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D20
+L Device:D_Small D12
 U 1 1 5E4FC9B8
-P 2300 3700
-F 0 "D20" V 2346 3632 50  0000 R CNN
-F 1 "D_Small" V 2255 3632 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 2300 3700 50  0001 C CNN
-F 3 "~" V 2300 3700 50  0001 C CNN
-	1    2300 3700
+P 2300 3750
+F 0 "D12" V 2346 3682 50  0000 R CNN
+F 1 "D_Small" V 2255 3682 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 2300 3750 50  0001 C CNN
+F 3 "~" V 2300 3750 50  0001 C CNN
+	1    2300 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW3
+L kbd:SW_PUSH SW2
 U 1 1 5E502AC3
 P 3000 2550
-F 0 "SW3" H 3000 2805 50  0000 C CNN
+F 0 "SW2" H 3000 2805 50  0000 C CNN
 F 1 "SW_PUSH" H 3000 2714 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 3000 2550 50  0001 C CNN
 F 3 "" H 3000 2550 50  0000 C CNN
@@ -208,10 +206,10 @@ F 3 "" H 3000 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D3
+L Device:D_Small D2
 U 1 1 5E502ACD
 P 3300 2650
-F 0 "D3" V 3346 2582 50  0000 R CNN
+F 0 "D2" V 3346 2582 50  0000 R CNN
 F 1 "D_Small" V 3255 2582 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 3300 2650 50  0001 C CNN
 F 3 "~" V 3300 2650 50  0001 C CNN
@@ -219,10 +217,10 @@ F 3 "~" V 3300 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW12
+L kbd:SW_PUSH SW7
 U 1 1 5E502AD7
 P 3000 3100
-F 0 "SW12" H 3000 3355 50  0000 C CNN
+F 0 "SW7" H 3000 3355 50  0000 C CNN
 F 1 "SW_PUSH" H 3000 3264 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 3000 3100 50  0001 C CNN
 F 3 "" H 3000 3100 50  0000 C CNN
@@ -230,10 +228,10 @@ F 3 "" H 3000 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D12
+L Device:D_Small D7
 U 1 1 5E502AE1
 P 3300 3200
-F 0 "D12" V 3346 3132 50  0000 R CNN
+F 0 "D7" V 3346 3132 50  0000 R CNN
 F 1 "D_Small" V 3255 3132 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 3300 3200 50  0001 C CNN
 F 3 "~" V 3300 3200 50  0001 C CNN
@@ -241,32 +239,32 @@ F 3 "~" V 3300 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW21
+L kbd:SW_PUSH SW13
 U 1 1 5E502AEB
-P 3000 3600
-F 0 "SW21" H 3000 3855 50  0000 C CNN
-F 1 "SW_PUSH" H 3000 3764 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 3000 3600 50  0001 C CNN
-F 3 "" H 3000 3600 50  0000 C CNN
-	1    3000 3600
+P 3000 3650
+F 0 "SW13" H 3000 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 3814 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 3000 3650 50  0001 C CNN
+F 3 "" H 3000 3650 50  0000 C CNN
+	1    3000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D21
+L Device:D_Small D13
 U 1 1 5E502AF5
-P 3300 3700
-F 0 "D21" V 3346 3632 50  0000 R CNN
-F 1 "D_Small" V 3255 3632 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 3300 3700 50  0001 C CNN
-F 3 "~" V 3300 3700 50  0001 C CNN
-	1    3300 3700
+P 3300 3750
+F 0 "D13" V 3346 3682 50  0000 R CNN
+F 1 "D_Small" V 3255 3682 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 3300 3750 50  0001 C CNN
+F 3 "~" V 3300 3750 50  0001 C CNN
+	1    3300 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW4
+L kbd:SW_PUSH SW3
 U 1 1 5E509265
 P 4000 2550
-F 0 "SW4" H 4000 2805 50  0000 C CNN
+F 0 "SW3" H 4000 2805 50  0000 C CNN
 F 1 "SW_PUSH" H 4000 2714 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 4000 2550 50  0001 C CNN
 F 3 "" H 4000 2550 50  0000 C CNN
@@ -274,10 +272,10 @@ F 3 "" H 4000 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D4
+L Device:D_Small D3
 U 1 1 5E50926F
 P 4300 2650
-F 0 "D4" V 4346 2582 50  0000 R CNN
+F 0 "D3" V 4346 2582 50  0000 R CNN
 F 1 "D_Small" V 4255 2582 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 4300 2650 50  0001 C CNN
 F 3 "~" V 4300 2650 50  0001 C CNN
@@ -285,10 +283,10 @@ F 3 "~" V 4300 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW13
+L kbd:SW_PUSH SW8
 U 1 1 5E509279
 P 4000 3100
-F 0 "SW13" H 4000 3355 50  0000 C CNN
+F 0 "SW8" H 4000 3355 50  0000 C CNN
 F 1 "SW_PUSH" H 4000 3264 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 4000 3100 50  0001 C CNN
 F 3 "" H 4000 3100 50  0000 C CNN
@@ -296,10 +294,10 @@ F 3 "" H 4000 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D13
+L Device:D_Small D8
 U 1 1 5E509283
 P 4300 3200
-F 0 "D13" V 4346 3132 50  0000 R CNN
+F 0 "D8" V 4346 3132 50  0000 R CNN
 F 1 "D_Small" V 4255 3132 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 4300 3200 50  0001 C CNN
 F 3 "~" V 4300 3200 50  0001 C CNN
@@ -307,54 +305,54 @@ F 3 "~" V 4300 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW22
+L kbd:SW_PUSH SW14
 U 1 1 5E50928D
-P 4000 3600
-F 0 "SW22" H 4000 3855 50  0000 C CNN
-F 1 "SW_PUSH" H 4000 3764 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 4000 3600 50  0001 C CNN
-F 3 "" H 4000 3600 50  0000 C CNN
-	1    4000 3600
+P 4000 3650
+F 0 "SW14" H 4000 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 4000 3814 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 4000 3650 50  0001 C CNN
+F 3 "" H 4000 3650 50  0000 C CNN
+	1    4000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D22
+L Device:D_Small D14
 U 1 1 5E509297
-P 4300 3700
-F 0 "D22" V 4346 3632 50  0000 R CNN
-F 1 "D_Small" V 4255 3632 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 4300 3700 50  0001 C CNN
-F 3 "~" V 4300 3700 50  0001 C CNN
-	1    4300 3700
+P 4300 3750
+F 0 "D14" V 4346 3682 50  0000 R CNN
+F 1 "D_Small" V 4255 3682 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 4300 3750 50  0001 C CNN
+F 3 "~" V 4300 3750 50  0001 C CNN
+	1    4300 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW30
+L kbd:SW_PUSH SW20
 U 1 1 5E5092A1
-P 4000 4150
-F 0 "SW30" H 4000 4405 50  0000 C CNN
-F 1 "SW_PUSH" H 4000 4314 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 4000 4150 50  0001 C CNN
-F 3 "" H 4000 4150 50  0000 C CNN
-	1    4000 4150
+P 4000 4200
+F 0 "SW20" H 4000 4455 50  0000 C CNN
+F 1 "SW_PUSH" H 4000 4364 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 4000 4200 50  0001 C CNN
+F 3 "" H 4000 4200 50  0000 C CNN
+	1    4000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D30
+L Device:D_Small D20
 U 1 1 5E5092AB
-P 4300 4250
-F 0 "D30" V 4346 4182 50  0000 R CNN
-F 1 "D_Small" V 4255 4182 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 4300 4250 50  0001 C CNN
-F 3 "~" V 4300 4250 50  0001 C CNN
-	1    4300 4250
+P 4300 4300
+F 0 "D20" V 4346 4232 50  0000 R CNN
+F 1 "D_Small" V 4255 4232 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 4300 4300 50  0001 C CNN
+F 3 "~" V 4300 4300 50  0001 C CNN
+	1    4300 4300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW5
+L kbd:SW_PUSH SW4
 U 1 1 5E5092B5
 P 5000 2550
-F 0 "SW5" H 5000 2805 50  0000 C CNN
+F 0 "SW4" H 5000 2805 50  0000 C CNN
 F 1 "SW_PUSH" H 5000 2714 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 5000 2550 50  0001 C CNN
 F 3 "" H 5000 2550 50  0000 C CNN
@@ -362,10 +360,10 @@ F 3 "" H 5000 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D5
+L Device:D_Small D4
 U 1 1 5E5092BF
 P 5300 2650
-F 0 "D5" V 5346 2582 50  0000 R CNN
+F 0 "D4" V 5346 2582 50  0000 R CNN
 F 1 "D_Small" V 5255 2582 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 5300 2650 50  0001 C CNN
 F 3 "~" V 5300 2650 50  0001 C CNN
@@ -373,10 +371,10 @@ F 3 "~" V 5300 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW14
+L kbd:SW_PUSH SW9
 U 1 1 5E5092C9
 P 5000 3100
-F 0 "SW14" H 5000 3355 50  0000 C CNN
+F 0 "SW9" H 5000 3355 50  0000 C CNN
 F 1 "SW_PUSH" H 5000 3264 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 5000 3100 50  0001 C CNN
 F 3 "" H 5000 3100 50  0000 C CNN
@@ -384,10 +382,10 @@ F 3 "" H 5000 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D14
+L Device:D_Small D9
 U 1 1 5E5092D3
 P 5300 3200
-F 0 "D14" V 5346 3132 50  0000 R CNN
+F 0 "D9" V 5346 3132 50  0000 R CNN
 F 1 "D_Small" V 5255 3132 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 5300 3200 50  0001 C CNN
 F 3 "~" V 5300 3200 50  0001 C CNN
@@ -395,54 +393,54 @@ F 3 "~" V 5300 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW23
-U 1 1 5E5092DD
-P 5000 3600
-F 0 "SW23" H 5000 3855 50  0000 C CNN
-F 1 "SW_PUSH" H 5000 3764 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 5000 3600 50  0001 C CNN
-F 3 "" H 5000 3600 50  0000 C CNN
-	1    5000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D23
-U 1 1 5E5092E7
-P 5300 3700
-F 0 "D23" V 5346 3632 50  0000 R CNN
-F 1 "D_Small" V 5255 3632 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 5300 3700 50  0001 C CNN
-F 3 "~" V 5300 3700 50  0001 C CNN
-	1    5300 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW31
-U 1 1 5E5092F1
-P 5000 4150
-F 0 "SW31" H 5000 4405 50  0000 C CNN
-F 1 "SW_PUSH" H 5000 4314 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 5000 4150 50  0001 C CNN
-F 3 "" H 5000 4150 50  0000 C CNN
-	1    5000 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D31
-U 1 1 5E5092FB
-P 5300 4250
-F 0 "D31" V 5346 4182 50  0000 R CNN
-F 1 "D_Small" V 5255 4182 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 5300 4250 50  0001 C CNN
-F 3 "~" V 5300 4250 50  0001 C CNN
-	1    5300 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW15
+U 1 1 5E5092DD
+P 5000 3650
+F 0 "SW15" H 5000 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 5000 3814 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 5000 3650 50  0001 C CNN
+F 3 "" H 5000 3650 50  0000 C CNN
+	1    5000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5E5092E7
+P 5300 3750
+F 0 "D15" V 5346 3682 50  0000 R CNN
+F 1 "D_Small" V 5255 3682 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 5300 3750 50  0001 C CNN
+F 3 "~" V 5300 3750 50  0001 C CNN
+	1    5300 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 5E5092F1
+P 5000 4200
+F 0 "SW21" H 5000 4455 50  0000 C CNN
+F 1 "SW_PUSH" H 5000 4364 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 5000 4200 50  0001 C CNN
+F 3 "" H 5000 4200 50  0000 C CNN
+	1    5000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 5E5092FB
+P 5300 4300
+F 0 "D21" V 5346 4232 50  0000 R CNN
+F 1 "D_Small" V 5255 4232 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 5300 4300 50  0001 C CNN
+F 3 "~" V 5300 4300 50  0001 C CNN
+	1    5300 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
 U 1 1 5E515EBB
 P 6000 3100
-F 0 "SW15" H 6000 3355 50  0000 C CNN
+F 0 "SW10" H 6000 3355 50  0000 C CNN
 F 1 "SW_PUSH" H 6000 3264 50  0000 C CNN
 F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 6000 3100 50  0001 C CNN
 F 3 "" H 6000 3100 50  0000 C CNN
@@ -450,10 +448,10 @@ F 3 "" H 6000 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D15
+L Device:D_Small D10
 U 1 1 5E515EC5
 P 6300 3200
-F 0 "D15" V 6346 3132 50  0000 R CNN
+F 0 "D10" V 6346 3132 50  0000 R CNN
 F 1 "D_Small" V 6255 3132 50  0000 R CNN
 F 2 "mykeyboardparts:Diode_SMD" V 6300 3200 50  0001 C CNN
 F 3 "~" V 6300 3200 50  0001 C CNN
@@ -461,408 +459,372 @@ F 3 "~" V 6300 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW24
-U 1 1 5E515ECF
-P 6000 3600
-F 0 "SW24" H 6000 3855 50  0000 C CNN
-F 1 "SW_PUSH" H 6000 3764 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 6000 3600 50  0001 C CNN
-F 3 "" H 6000 3600 50  0000 C CNN
-	1    6000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D24
-U 1 1 5E515ED9
-P 6300 3700
-F 0 "D24" V 6346 3632 50  0000 R CNN
-F 1 "D_Small" V 6255 3632 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 6300 3700 50  0001 C CNN
-F 3 "~" V 6300 3700 50  0001 C CNN
-	1    6300 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW32
+L kbd:SW_PUSH SW22
 U 1 1 5E515EE3
-P 6000 4150
-F 0 "SW32" H 6000 4405 50  0000 C CNN
-F 1 "SW_PUSH" H 6000 4314 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 6000 4150 50  0001 C CNN
-F 3 "" H 6000 4150 50  0000 C CNN
-	1    6000 4150
+P 6000 4200
+F 0 "SW22" H 6000 4455 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 4364 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 6000 4200 50  0001 C CNN
+F 3 "" H 6000 4200 50  0000 C CNN
+	1    6000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D32
+L Device:D_Small D22
 U 1 1 5E515EED
-P 6300 4250
-F 0 "D32" V 6346 4182 50  0000 R CNN
-F 1 "D_Small" V 6255 4182 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 6300 4250 50  0001 C CNN
-F 3 "~" V 6300 4250 50  0001 C CNN
-	1    6300 4250
+P 6300 4300
+F 0 "D22" V 6346 4232 50  0000 R CNN
+F 1 "D_Small" V 6255 4232 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 6300 4300 50  0001 C CNN
+F 3 "~" V 6300 4300 50  0001 C CNN
+	1    6300 4300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW6
+L kbd:SW_PUSH SW11
 U 1 1 5E515EF7
-P 7000 2550
-F 0 "SW6" H 7000 2805 50  0000 C CNN
-F 1 "SW_PUSH" H 7000 2714 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 7000 2550 50  0001 C CNN
-F 3 "" H 7000 2550 50  0000 C CNN
-	1    7000 2550
+P 1000 3650
+F 0 "SW11" H 1000 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 1000 3814 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 1000 3650 50  0001 C CNN
+F 3 "" H 1000 3650 50  0000 C CNN
+	1    1000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D6
+L Device:D_Small D11
 U 1 1 5E515F01
-P 7300 2650
-F 0 "D6" V 7346 2582 50  0000 R CNN
-F 1 "D_Small" V 7255 2582 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 7300 2650 50  0001 C CNN
-F 3 "~" V 7300 2650 50  0001 C CNN
-	1    7300 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW16
-U 1 1 5E515F0B
-P 7000 3100
-F 0 "SW16" H 7000 3355 50  0000 C CNN
-F 1 "SW_PUSH" H 7000 3264 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 7000 3100 50  0001 C CNN
-F 3 "" H 7000 3100 50  0000 C CNN
-	1    7000 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D16
-U 1 1 5E515F15
-P 7300 3200
-F 0 "D16" V 7346 3132 50  0000 R CNN
-F 1 "D_Small" V 7255 3132 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 7300 3200 50  0001 C CNN
-F 3 "~" V 7300 3200 50  0001 C CNN
-	1    7300 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW25
-U 1 1 5E515F1F
-P 7000 3600
-F 0 "SW25" H 7000 3855 50  0000 C CNN
-F 1 "SW_PUSH" H 7000 3764 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 7000 3600 50  0001 C CNN
-F 3 "" H 7000 3600 50  0000 C CNN
-	1    7000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D25
-U 1 1 5E515F29
-P 7300 3700
-F 0 "D25" V 7346 3632 50  0000 R CNN
-F 1 "D_Small" V 7255 3632 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 7300 3700 50  0001 C CNN
-F 3 "~" V 7300 3700 50  0001 C CNN
-	1    7300 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW33
-U 1 1 5E515F33
-P 7000 4150
-F 0 "SW33" H 7000 4405 50  0000 C CNN
-F 1 "SW_PUSH" H 7000 4314 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 7000 4150 50  0001 C CNN
-F 3 "" H 7000 4150 50  0000 C CNN
-	1    7000 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D33
-U 1 1 5E515F3D
-P 7300 4250
-F 0 "D33" V 7346 4182 50  0000 R CNN
-F 1 "D_Small" V 7255 4182 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 7300 4250 50  0001 C CNN
-F 3 "~" V 7300 4250 50  0001 C CNN
-	1    7300 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW7
-U 1 1 5E515F47
-P 8000 2550
-F 0 "SW7" H 8000 2805 50  0000 C CNN
-F 1 "SW_PUSH" H 8000 2714 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 8000 2550 50  0001 C CNN
-F 3 "" H 8000 2550 50  0000 C CNN
-	1    8000 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D7
-U 1 1 5E515F51
-P 8300 2650
-F 0 "D7" V 8346 2582 50  0000 R CNN
-F 1 "D_Small" V 8255 2582 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 8300 2650 50  0001 C CNN
-F 3 "~" V 8300 2650 50  0001 C CNN
-	1    8300 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW17
-U 1 1 5E515F5B
-P 8000 3100
-F 0 "SW17" H 8000 3355 50  0000 C CNN
-F 1 "SW_PUSH" H 8000 3264 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 8000 3100 50  0001 C CNN
-F 3 "" H 8000 3100 50  0000 C CNN
-	1    8000 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D17
-U 1 1 5E515F65
-P 8300 3200
-F 0 "D17" V 8346 3132 50  0000 R CNN
-F 1 "D_Small" V 8255 3132 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 8300 3200 50  0001 C CNN
-F 3 "~" V 8300 3200 50  0001 C CNN
-	1    8300 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW26
-U 1 1 5E515F6F
-P 8000 3600
-F 0 "SW26" H 8000 3855 50  0000 C CNN
-F 1 "SW_PUSH" H 8000 3764 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 8000 3600 50  0001 C CNN
-F 3 "" H 8000 3600 50  0000 C CNN
-	1    8000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D26
-U 1 1 5E515F79
-P 8300 3700
-F 0 "D26" V 8346 3632 50  0000 R CNN
-F 1 "D_Small" V 8255 3632 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 8300 3700 50  0001 C CNN
-F 3 "~" V 8300 3700 50  0001 C CNN
-	1    8300 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW8
-U 1 1 5E515F97
-P 9000 2550
-F 0 "SW8" H 9000 2805 50  0000 C CNN
-F 1 "SW_PUSH" H 9000 2714 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 9000 2550 50  0001 C CNN
-F 3 "" H 9000 2550 50  0000 C CNN
-	1    9000 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D8
-U 1 1 5E515FA1
-P 9300 2650
-F 0 "D8" V 9346 2582 50  0000 R CNN
-F 1 "D_Small" V 9255 2582 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 9300 2650 50  0001 C CNN
-F 3 "~" V 9300 2650 50  0001 C CNN
-	1    9300 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW18
-U 1 1 5E515FAB
-P 9000 3100
-F 0 "SW18" H 9000 3355 50  0000 C CNN
-F 1 "SW_PUSH" H 9000 3264 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 9000 3100 50  0001 C CNN
-F 3 "" H 9000 3100 50  0000 C CNN
-	1    9000 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D18
-U 1 1 5E515FB5
-P 9300 3200
-F 0 "D18" V 9346 3132 50  0000 R CNN
-F 1 "D_Small" V 9255 3132 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 9300 3200 50  0001 C CNN
-F 3 "~" V 9300 3200 50  0001 C CNN
-	1    9300 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW27
-U 1 1 5E515FBF
-P 9000 3600
-F 0 "SW27" H 9000 3855 50  0000 C CNN
-F 1 "SW_PUSH" H 9000 3764 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 9000 3600 50  0001 C CNN
-F 3 "" H 9000 3600 50  0000 C CNN
-	1    9000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D27
-U 1 1 5E515FC9
-P 9300 3700
-F 0 "D27" V 9346 3632 50  0000 R CNN
-F 1 "D_Small" V 9255 3632 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 9300 3700 50  0001 C CNN
-F 3 "~" V 9300 3700 50  0001 C CNN
-	1    9300 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kbd:SW_PUSH SW9
-U 1 1 5E515FE7
-P 10000 2550
-F 0 "SW9" H 10000 2805 50  0000 C CNN
-F 1 "SW_PUSH" H 10000 2714 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 10000 2550 50  0001 C CNN
-F 3 "" H 10000 2550 50  0000 C CNN
-	1    10000 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D9
-U 1 1 5E515FF1
-P 10300 2650
-F 0 "D9" V 10346 2582 50  0000 R CNN
-F 1 "D_Small" V 10255 2582 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 10300 2650 50  0001 C CNN
-F 3 "~" V 10300 2650 50  0001 C CNN
-	1    10300 2650
+P 1300 3750
+F 0 "D11" V 1346 3682 50  0000 R CNN
+F 1 "D_Small" V 1255 3682 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 1300 3750 50  0001 C CNN
+F 3 "~" V 1300 3750 50  0001 C CNN
+	1    1300 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW19
-U 1 1 5E515FFB
-P 10000 3100
-F 0 "SW19" H 10000 3355 50  0000 C CNN
-F 1 "SW_PUSH" H 10000 3264 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 10000 3100 50  0001 C CNN
-F 3 "" H 10000 3100 50  0000 C CNN
-	1    10000 3100
+U 1 1 5E515F0B
+P 3000 4200
+F 0 "SW19" H 3000 4455 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 4364 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 3000 4200 50  0001 C CNN
+F 3 "" H 3000 4200 50  0000 C CNN
+	1    3000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D19
-U 1 1 5E516005
-P 10300 3200
-F 0 "D19" V 10346 3132 50  0000 R CNN
-F 1 "D_Small" V 10255 3132 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 10300 3200 50  0001 C CNN
-F 3 "~" V 10300 3200 50  0001 C CNN
-	1    10300 3200
+U 1 1 5E515F15
+P 3300 4300
+F 0 "D19" V 3346 4232 50  0000 R CNN
+F 1 "D_Small" V 3255 4232 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 3300 4300 50  0001 C CNN
+F 3 "~" V 3300 4300 50  0001 C CNN
+	1    3300 4300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D28
-U 1 1 5E4F5EB2
-P 1300 4250
-F 0 "D28" V 1346 4182 50  0000 R CNN
-F 1 "D_Small" V 1255 4182 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 1300 4250 50  0001 C CNN
-F 3 "~" V 1300 4250 50  0001 C CNN
-	1    1300 4250
+L kbd:SW_PUSH SW24
+U 1 1 5E515F1F
+P 2000 4750
+F 0 "SW24" H 2000 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 4914 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 2000 4750 50  0001 C CNN
+F 3 "" H 2000 4750 50  0000 C CNN
+	1    2000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5E515F29
+P 2300 4850
+F 0 "D24" V 2346 4782 50  0000 R CNN
+F 1 "D_Small" V 2255 4782 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 2300 4850 50  0001 C CNN
+F 3 "~" V 2300 4850 50  0001 C CNN
+	1    2300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW26
+U 1 1 5E515F33
+P 4000 4750
+F 0 "SW26" H 4000 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 4000 4914 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 4000 4750 50  0001 C CNN
+F 3 "" H 4000 4750 50  0000 C CNN
+	1    4000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 5E515F3D
+P 4300 4850
+F 0 "D26" V 4346 4782 50  0000 R CNN
+F 1 "D_Small" V 4255 4782 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 4300 4850 50  0001 C CNN
+F 3 "~" V 4300 4850 50  0001 C CNN
+	1    4300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 5E515F47
+P 1000 4750
+F 0 "SW23" H 1000 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 1000 4914 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 1000 4750 50  0001 C CNN
+F 3 "" H 1000 4750 50  0000 C CNN
+	1    1000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 5E515F51
+P 1300 4850
+F 0 "D23" V 1346 4782 50  0000 R CNN
+F 1 "D_Small" V 1255 4782 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 1300 4850 50  0001 C CNN
+F 3 "~" V 1300 4850 50  0001 C CNN
+	1    1300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 5E515F5B
+P 3000 4750
+F 0 "SW25" H 3000 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 4914 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 3000 4750 50  0001 C CNN
+F 3 "" H 3000 4750 50  0000 C CNN
+	1    3000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 5E515F65
+P 3300 4850
+F 0 "D25" V 3346 4782 50  0000 R CNN
+F 1 "D_Small" V 3255 4782 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 3300 4850 50  0001 C CNN
+F 3 "~" V 3300 4850 50  0001 C CNN
+	1    3300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW30
+U 1 1 5E515F6F
+P 3000 5300
+F 0 "SW30" H 3000 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 5464 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 3000 5300 50  0001 C CNN
+F 3 "" H 3000 5300 50  0000 C CNN
+	1    3000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 5E515F79
+P 3300 5400
+F 0 "D30" V 3346 5332 50  0000 R CNN
+F 1 "D_Small" V 3255 5332 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 3300 5400 50  0001 C CNN
+F 3 "~" V 3300 5400 50  0001 C CNN
+	1    3300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW31
+U 1 1 5E515F97
+P 4000 5300
+F 0 "SW31" H 4000 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 4000 5464 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 4000 5300 50  0001 C CNN
+F 3 "" H 4000 5300 50  0000 C CNN
+	1    4000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 5E515FA1
+P 4300 5400
+F 0 "D31" V 4346 5332 50  0000 R CNN
+F 1 "D_Small" V 4255 5332 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 4300 5400 50  0001 C CNN
+F 3 "~" V 4300 5400 50  0001 C CNN
+	1    4300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 5E515FAB
+P 5000 4750
+F 0 "SW27" H 5000 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 5000 4914 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 5000 4750 50  0001 C CNN
+F 3 "" H 5000 4750 50  0000 C CNN
+	1    5000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 5E515FB5
+P 5300 4850
+F 0 "D27" V 5346 4782 50  0000 R CNN
+F 1 "D_Small" V 5255 4782 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 5300 4850 50  0001 C CNN
+F 3 "~" V 5300 4850 50  0001 C CNN
+	1    5300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW32
+U 1 1 5E515FBF
+P 5000 5300
+F 0 "SW32" H 5000 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 5000 5464 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 5000 5300 50  0001 C CNN
+F 3 "" H 5000 5300 50  0000 C CNN
+	1    5000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5E515FC9
+P 5300 5400
+F 0 "D32" V 5346 5332 50  0000 R CNN
+F 1 "D_Small" V 5255 5332 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 5300 5400 50  0001 C CNN
+F 3 "~" V 5300 5400 50  0001 C CNN
+	1    5300 5400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW28
-U 1 1 5E4F5EA8
-P 1000 4150
-F 0 "SW28" H 1000 4405 50  0000 C CNN
-F 1 "SW_PUSH" H 1000 4314 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 1000 4150 50  0001 C CNN
-F 3 "" H 1000 4150 50  0000 C CNN
-	1    1000 4150
+U 1 1 5E515FE7
+P 6000 4750
+F 0 "SW28" H 6000 5005 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 4914 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 6000 4750 50  0001 C CNN
+F 3 "" H 6000 4750 50  0000 C CNN
+	1    6000 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D29
-U 1 1 5E58C135
-P 2300 4250
-F 0 "D29" V 2346 4182 50  0000 R CNN
-F 1 "D_Small" V 2255 4182 50  0000 R CNN
-F 2 "mykeyboardparts:Diode_SMD" V 2300 4250 50  0001 C CNN
-F 3 "~" V 2300 4250 50  0001 C CNN
-	1    2300 4250
+L Device:D_Small D28
+U 1 1 5E515FF1
+P 6300 4850
+F 0 "D28" V 6346 4782 50  0000 R CNN
+F 1 "D_Small" V 6255 4782 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 6300 4850 50  0001 C CNN
+F 3 "~" V 6300 4850 50  0001 C CNN
+	1    6300 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kbd:SW_PUSH SW29
+L kbd:SW_PUSH SW33
+U 1 1 5E515FFB
+P 6000 5300
+F 0 "SW33" H 6000 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 5464 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 6000 5300 50  0001 C CNN
+F 3 "" H 6000 5300 50  0000 C CNN
+	1    6000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 5E516005
+P 6300 5400
+F 0 "D33" V 6346 5332 50  0000 R CNN
+F 1 "D_Small" V 6255 5332 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 6300 5400 50  0001 C CNN
+F 3 "~" V 6300 5400 50  0001 C CNN
+	1    6300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5E4F5EB2
+P 1300 4300
+F 0 "D17" V 1346 4232 50  0000 R CNN
+F 1 "D_Small" V 1255 4232 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 1300 4300 50  0001 C CNN
+F 3 "~" V 1300 4300 50  0001 C CNN
+	1    1300 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5E4F5EA8
+P 1000 4200
+F 0 "SW17" H 1000 4455 50  0000 C CNN
+F 1 "SW_PUSH" H 1000 4364 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 1000 4200 50  0001 C CNN
+F 3 "" H 1000 4200 50  0000 C CNN
+	1    1000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5E58C135
+P 2300 4300
+F 0 "D18" V 2346 4232 50  0000 R CNN
+F 1 "D_Small" V 2255 4232 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 2300 4300 50  0001 C CNN
+F 3 "~" V 2300 4300 50  0001 C CNN
+	1    2300 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
 U 1 1 5E58C13B
-P 2000 4150
-F 0 "SW29" H 2000 4405 50  0000 C CNN
-F 1 "SW_PUSH" H 2000 4314 50  0000 C CNN
-F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 2000 4150 50  0001 C CNN
-F 3 "" H 2000 4150 50  0000 C CNN
-	1    2000 4150
+P 2000 4200
+F 0 "SW18" H 2000 4455 50  0000 C CNN
+F 1 "SW_PUSH" H 2000 4364 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 2000 4200 50  0001 C CNN
+F 3 "" H 2000 4200 50  0000 C CNN
+	1    2000 4200
 	1    0    0    -1  
 $EndComp
 Text GLabel 1200 3300 0    50   Input ~ 0
 row2
-Text GLabel 1200 3800 0    50   Input ~ 0
+Text GLabel 1200 3850 0    50   Input ~ 0
 row3
 Wire Wire Line
-	1200 3800 2300 3800
-Connection ~ 2300 3800
+	1200 3850 1300 3850
+Connection ~ 2300 3850
 Wire Wire Line
-	2300 3800 3300 3800
-Connection ~ 3300 3800
+	2300 3850 3300 3850
+Connection ~ 3300 3850
 Wire Wire Line
-	3300 3800 4300 3800
-Connection ~ 4300 3800
+	3300 3850 4300 3850
+Connection ~ 4300 3850
 Wire Wire Line
-	4300 3800 5300 3800
-Connection ~ 5300 3800
+	4300 3850 5300 3850
+Connection ~ 5300 3850
 Wire Wire Line
-	5300 3800 6300 3800
-Connection ~ 6300 3800
+	1200 4950 1300 4950
+Connection ~ 2300 4950
 Wire Wire Line
-	6300 3800 7300 3800
-Connection ~ 7300 3800
-Wire Wire Line
-	7300 3800 8300 3800
-Connection ~ 8300 3800
-Wire Wire Line
-	8300 3800 9300 3800
-Text GLabel 1200 4350 0    50   Input ~ 0
+	2300 4950 3300 4950
+Text GLabel 1200 4400 0    50   Input ~ 0
 row4
 Wire Wire Line
-	1200 4350 1300 4350
-Connection ~ 1300 4350
+	1200 4400 1300 4400
+Connection ~ 1300 4400
 Wire Wire Line
-	1300 4350 2300 4350
-Connection ~ 2300 4350
+	1300 4400 2300 4400
+Connection ~ 2300 4400
 Wire Wire Line
-	2300 4350 4300 4350
-Connection ~ 4300 4350
+	2300 4400 3300 4400
+Connection ~ 4300 4400
 Wire Wire Line
-	4300 4350 5300 4350
-Connection ~ 5300 4350
+	4300 4400 5300 4400
+Connection ~ 5300 4400
 Wire Wire Line
-	5300 4350 6300 4350
-Connection ~ 6300 4350
-Wire Wire Line
-	6300 4350 7300 4350
-Wire Wire Line
-	1200 3300 1300 3300
-Connection ~ 1300 3300
-Wire Wire Line
-	1300 3300 2300 3300
+	5300 4400 6300 4400
 Connection ~ 2300 3300
 Wire Wire Line
 	2300 3300 3300 3300
@@ -875,26 +837,12 @@ Wire Wire Line
 Connection ~ 5300 3300
 Wire Wire Line
 	5300 3300 6300 3300
-Connection ~ 6300 3300
+Connection ~ 3300 4400
 Wire Wire Line
-	6300 3300 7300 3300
-Connection ~ 7300 3300
+	3300 4400 4300 4400
 Wire Wire Line
-	7300 3300 8300 3300
-Connection ~ 8300 3300
-Wire Wire Line
-	8300 3300 9300 3300
-Connection ~ 9300 3300
-Wire Wire Line
-	9300 3300 10300 3300
-Wire Wire Line
-	10300 2750 9300 2750
-Connection ~ 1300 2750
-Wire Wire Line
-	1300 2750 1200 2750
+	3300 4950 4300 4950
 Connection ~ 2300 2750
-Wire Wire Line
-	2300 2750 1300 2750
 Connection ~ 3300 2750
 Wire Wire Line
 	3300 2750 2300 2750
@@ -904,15 +852,6 @@ Wire Wire Line
 Connection ~ 5300 2750
 Wire Wire Line
 	5300 2750 4300 2750
-Connection ~ 7300 2750
-Wire Wire Line
-	7300 2750 5300 2750
-Connection ~ 8300 2750
-Wire Wire Line
-	8300 2750 7300 2750
-Connection ~ 9300 2750
-Wire Wire Line
-	9300 2750 8300 2750
 Text GLabel 700  2450 1    50   Input ~ 0
 col1
 Text GLabel 1700 2450 1    50   Input ~ 0
@@ -925,103 +864,47 @@ Text GLabel 4700 2450 1    50   Input ~ 0
 col5
 Text GLabel 5700 2450 1    50   Input ~ 0
 col6
-Text GLabel 6700 2450 1    50   Input ~ 0
-col7
-Text GLabel 7700 2450 1    50   Input ~ 0
-col8
-Text GLabel 8700 2450 1    50   Input ~ 0
-col9
-Text GLabel 9700 2450 1    50   Input ~ 0
-col10
 Wire Wire Line
-	9700 2450 9700 2550
-Connection ~ 9700 2550
+	5700 2450 5700 2550
 Wire Wire Line
-	9700 2550 9700 3100
-Wire Wire Line
-	8700 2450 8700 2550
-Connection ~ 8700 2550
-Wire Wire Line
-	8700 2550 8700 3100
-Connection ~ 8700 3100
-Wire Wire Line
-	8700 3100 8700 3600
-Wire Wire Line
-	7700 2450 7700 2550
-Connection ~ 7700 2550
-Wire Wire Line
-	7700 2550 7700 3100
-Connection ~ 7700 3100
-Wire Wire Line
-	7700 3100 7700 3600
-Wire Wire Line
-	6700 2450 6700 2550
-Connection ~ 6700 2550
-Wire Wire Line
-	6700 2550 6700 3100
-Connection ~ 6700 3100
-Wire Wire Line
-	6700 3100 6700 3600
-Connection ~ 6700 3600
-Wire Wire Line
-	6700 3600 6700 4150
-Wire Wire Line
-	5700 2450 5700 3100
-Connection ~ 5700 3100
-Wire Wire Line
-	5700 3100 5700 3600
-Connection ~ 5700 3600
-Wire Wire Line
-	5700 3600 5700 4150
-Wire Wire Line
-	4700 4150 4700 3600
+	4700 5300 4700 4750
 Connection ~ 4700 2550
 Wire Wire Line
 	4700 2550 4700 2450
-Connection ~ 4700 3100
 Wire Wire Line
 	4700 3100 4700 2550
-Connection ~ 4700 3600
+Connection ~ 4700 3650
 Wire Wire Line
-	4700 3600 4700 3100
+	4700 3650 4700 3100
 Wire Wire Line
 	3700 2450 3700 2550
 Connection ~ 3700 2550
 Wire Wire Line
 	3700 2550 3700 3100
-Connection ~ 3700 3100
 Wire Wire Line
-	3700 3100 3700 3600
-Connection ~ 3700 3600
+	3700 3100 3700 3650
+Connection ~ 3700 3650
 Wire Wire Line
-	3700 3600 3700 4150
+	3700 3650 3700 4200
 Wire Wire Line
 	2700 2450 2700 2550
 Connection ~ 2700 2550
 Wire Wire Line
 	2700 2550 2700 3100
-Connection ~ 2700 3100
 Wire Wire Line
-	2700 3100 2700 3600
+	2700 3100 2700 3650
 Wire Wire Line
 	1700 2450 1700 2550
 Connection ~ 1700 2550
 Wire Wire Line
 	1700 2550 1700 3100
-Connection ~ 1700 3100
 Wire Wire Line
-	1700 3100 1700 3600
-Connection ~ 1700 3600
+	1700 3100 1700 3650
+Connection ~ 1700 3650
 Wire Wire Line
-	1700 3600 1700 4150
+	1700 3650 1700 4200
 Wire Wire Line
-	700  4150 700  3100
-Connection ~ 700  2550
-Wire Wire Line
-	700  2550 700  2450
-Connection ~ 700  3100
-Wire Wire Line
-	700  3100 700  2550
+	700  4200 700  3650
 Text GLabel 3400 1000 0    50   Input ~ 0
 reset
 $Comp
@@ -1047,1009 +930,21 @@ Text GLabel 850  1850 0    50   Input ~ 0
 col5
 Text GLabel 850  1950 0    50   Input ~ 0
 col6
-Text GLabel 2250 1650 2    50   Input ~ 0
-col7
-Text GLabel 2250 1750 2    50   Input ~ 0
-col8
-Text GLabel 2250 1850 2    50   Input ~ 0
-col9
-Text GLabel 2250 1950 2    50   Input ~ 0
-col10
-Text GLabel 2250 1250 2    50   Input ~ 0
-row1
-Text GLabel 2250 1350 2    50   Input ~ 0
-row2
 Text GLabel 2250 1450 2    50   Input ~ 0
-row3
+row1
 Text GLabel 2250 1550 2    50   Input ~ 0
+row2
+Text GLabel 2250 1650 2    50   Input ~ 0
+row3
+Text GLabel 2250 1750 2    50   Input ~ 0
 row4
 NoConn ~ 850  1350
 NoConn ~ 850  1250
 $Comp
-L kbd:SK6812MINI L1
-U 1 1 5E5D7221
-P 2650 4750
-F 0 "L1" H 2650 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 2650 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 2650 4750 60  0001 C CNN
-F 3 "" H 2650 4750 60  0001 C CNN
-	1    2650 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L10
-U 1 1 5E5E038D
-P 2650 5150
-F 0 "L10" H 2650 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 2650 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 2650 5150 60  0001 C CNN
-F 3 "" H 2650 5150 60  0001 C CNN
-	1    2650 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L28
-U 1 1 5E5E2CD3
-P 2650 5950
-F 0 "L28" H 2650 5950 51  0000 C CNN
-F 1 "SK6812MINI" H 2650 5900 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 2650 5950 60  0001 C CNN
-F 3 "" H 2650 5950 60  0001 C CNN
-	1    2650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5E5F3D9B
-P 2400 6150
-F 0 "#PWR010" H 2400 5900 50  0001 C CNN
-F 1 "GND" V 2405 6022 50  0000 R CNN
-F 2 "" H 2400 6150 50  0001 C CNN
-F 3 "" H 2400 6150 50  0001 C CNN
-	1    2400 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5E5F43F5
-P 2400 4550
-F 0 "#PWR06" H 2400 4300 50  0001 C CNN
-F 1 "GND" V 2405 4422 50  0000 R CNN
-F 2 "" H 2400 4550 50  0001 C CNN
-F 3 "" H 2400 4550 50  0001 C CNN
-	1    2400 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5E5F4A59
-P 2400 5350
-F 0 "#PWR08" H 2400 5100 50  0001 C CNN
-F 1 "GND" V 2405 5222 50  0000 R CNN
-F 2 "" H 2400 5350 50  0001 C CNN
-F 3 "" H 2400 5350 50  0001 C CNN
-	1    2400 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR07
-U 1 1 5E5F51EA
-P 7400 4950
-F 0 "#PWR07" H 7400 4800 50  0001 C CNN
-F 1 "VCC" V 7417 5078 50  0000 L CNN
-F 2 "" H 7400 4950 50  0001 C CNN
-F 3 "" H 7400 4950 50  0001 C CNN
-	1    7400 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L kbd:SK6812MINI L2
-U 1 1 5E606F5F
-P 3150 4750
-F 0 "L2" H 3150 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 3150 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 3150 4750 60  0001 C CNN
-F 3 "" H 3150 4750 60  0001 C CNN
-	1    3150 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L11
-U 1 1 5E606F65
-P 3150 5150
-F 0 "L11" H 3150 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 3150 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 3150 5150 60  0001 C CNN
-F 3 "" H 3150 5150 60  0001 C CNN
-	1    3150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L3
-U 1 1 5E609B76
-P 3650 4750
-F 0 "L3" H 3650 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 3650 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 3650 4750 60  0001 C CNN
-F 3 "" H 3650 4750 60  0001 C CNN
-	1    3650 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L12
-U 1 1 5E609B7C
-P 3650 5150
-F 0 "L12" H 3650 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 3650 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 3650 5150 60  0001 C CNN
-F 3 "" H 3650 5150 60  0001 C CNN
-	1    3650 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L21
-U 1 1 5E609B82
-P 3650 5550
-F 0 "L21" H 3650 5550 51  0000 C CNN
-F 1 "SK6812MINI" H 3650 5500 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 3650 5550 60  0001 C CNN
-F 3 "" H 3650 5550 60  0001 C CNN
-	1    3650 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L4
-U 1 1 5E60C35B
-P 4150 4750
-F 0 "L4" H 4150 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 4150 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 4150 4750 60  0001 C CNN
-F 3 "" H 4150 4750 60  0001 C CNN
-	1    4150 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L13
-U 1 1 5E60C361
-P 4150 5150
-F 0 "L13" H 4150 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 4150 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 4150 5150 60  0001 C CNN
-F 3 "" H 4150 5150 60  0001 C CNN
-	1    4150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L22
-U 1 1 5E60C367
-P 4150 5550
-F 0 "L22" H 4150 5550 51  0000 C CNN
-F 1 "SK6812MINI" H 4150 5500 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 4150 5550 60  0001 C CNN
-F 3 "" H 4150 5550 60  0001 C CNN
-	1    4150 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L5
-U 1 1 5E60EBA4
-P 4650 4750
-F 0 "L5" H 4650 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 4650 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 4650 4750 60  0001 C CNN
-F 3 "" H 4650 4750 60  0001 C CNN
-	1    4650 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L14
-U 1 1 5E60EBAA
-P 4650 5150
-F 0 "L14" H 4650 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 4650 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 4650 5150 60  0001 C CNN
-F 3 "" H 4650 5150 60  0001 C CNN
-	1    4650 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L23
-U 1 1 5E60EBB0
-P 4650 5550
-F 0 "L23" H 4650 5550 51  0000 C CNN
-F 1 "SK6812MINI" H 4650 5500 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 4650 5550 60  0001 C CNN
-F 3 "" H 4650 5550 60  0001 C CNN
-	1    4650 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L15
-U 1 1 5E61433C
-P 5150 5150
-F 0 "L15" H 5150 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 5150 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 5150 5150 60  0001 C CNN
-F 3 "" H 5150 5150 60  0001 C CNN
-	1    5150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L24
-U 1 1 5E614342
-P 5150 5550
-F 0 "L24" H 5150 5550 51  0000 C CNN
-F 1 "SK6812MINI" H 5150 5500 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 5150 5550 60  0001 C CNN
-F 3 "" H 5150 5550 60  0001 C CNN
-	1    5150 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L32
-U 1 1 5E614348
-P 5150 5950
-F 0 "L32" H 5150 5950 51  0000 C CNN
-F 1 "SK6812MINI" H 5150 5900 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 5150 5950 60  0001 C CNN
-F 3 "" H 5150 5950 60  0001 C CNN
-	1    5150 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L6
-U 1 1 5E6169A3
-P 5650 4750
-F 0 "L6" H 5650 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 5650 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 5650 4750 60  0001 C CNN
-F 3 "" H 5650 4750 60  0001 C CNN
-	1    5650 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L16
-U 1 1 5E6169A9
-P 5650 5150
-F 0 "L16" H 5650 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 5650 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 5650 5150 60  0001 C CNN
-F 3 "" H 5650 5150 60  0001 C CNN
-	1    5650 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L25
-U 1 1 5E6169AF
-P 5650 5550
-F 0 "L25" H 5650 5550 51  0000 C CNN
-F 1 "SK6812MINI" H 5650 5500 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 5650 5550 60  0001 C CNN
-F 3 "" H 5650 5550 60  0001 C CNN
-	1    5650 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L7
-U 1 1 5E619D42
-P 6150 4750
-F 0 "L7" H 6150 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 6150 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 6150 4750 60  0001 C CNN
-F 3 "" H 6150 4750 60  0001 C CNN
-	1    6150 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L17
-U 1 1 5E619D48
-P 6150 5150
-F 0 "L17" H 6150 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 6150 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 6150 5150 60  0001 C CNN
-F 3 "" H 6150 5150 60  0001 C CNN
-	1    6150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L26
-U 1 1 5E619D4E
-P 6150 5550
-F 0 "L26" H 6150 5550 51  0000 C CNN
-F 1 "SK6812MINI" H 6150 5500 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 6150 5550 60  0001 C CNN
-F 3 "" H 6150 5550 60  0001 C CNN
-	1    6150 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L8
-U 1 1 5E61E3D9
-P 6650 4750
-F 0 "L8" H 6650 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 6650 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 6650 4750 60  0001 C CNN
-F 3 "" H 6650 4750 60  0001 C CNN
-	1    6650 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L18
-U 1 1 5E61E3DF
-P 6650 5150
-F 0 "L18" H 6650 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 6650 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 6650 5150 60  0001 C CNN
-F 3 "" H 6650 5150 60  0001 C CNN
-	1    6650 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L29
-U 1 1 5E606F71
-P 3150 5950
-F 0 "L29" H 3150 5950 51  0000 C CNN
-F 1 "SK6812MINI" H 3150 5900 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 3150 5950 60  0001 C CNN
-F 3 "" H 3150 5950 60  0001 C CNN
-	1    3150 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L33
-U 1 1 5E625430
-P 5650 5950
-F 0 "L33" H 5650 5950 51  0000 C CNN
-F 1 "SK6812MINI" H 5650 5900 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 5650 5950 60  0001 C CNN
-F 3 "" H 5650 5950 60  0001 C CNN
-	1    5650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L27
-U 1 1 5E62542A
-P 6650 5550
-F 0 "L27" H 6650 5550 51  0000 C CNN
-F 1 "SK6812MINI" H 6650 5500 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 6650 5550 60  0001 C CNN
-F 3 "" H 6650 5550 60  0001 C CNN
-	1    6650 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L19
-U 1 1 5E625424
-P 7150 5150
-F 0 "L19" H 7150 5150 51  0000 C CNN
-F 1 "SK6812MINI" H 7150 5100 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 7150 5150 60  0001 C CNN
-F 3 "" H 7150 5150 60  0001 C CNN
-	1    7150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L9
-U 1 1 5E62541E
-P 7150 4750
-F 0 "L9" H 7150 4750 51  0000 C CNN
-F 1 "SK6812MINI" H 7150 4700 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 7150 4750 60  0001 C CNN
-F 3 "" H 7150 4750 60  0001 C CNN
-	1    7150 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L kbd:SK6812MINI L30
-U 1 1 5E60C36D
-P 4150 5950
-F 0 "L30" H 4150 5950 51  0000 C CNN
-F 1 "SK6812MINI" H 4150 5900 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 4150 5950 60  0001 C CNN
-F 3 "" H 4150 5950 60  0001 C CNN
-	1    4150 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SK6812MINI L31
-U 1 1 5E60EBB6
-P 4650 5950
-F 0 "L31" H 4650 5950 51  0000 C CNN
-F 1 "SK6812MINI" H 4650 5900 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 4650 5950 60  0001 C CNN
-F 3 "" H 4650 5950 60  0001 C CNN
-	1    4650 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 5850 5400 5850
-Wire Wire Line
-	5400 5850 5400 6050
-Wire Wire Line
-	5400 6050 5350 6050
-Wire Wire Line
-	4950 5850 4900 5850
-Wire Wire Line
-	4900 5850 4900 6050
-Wire Wire Line
-	4900 6050 4850 6050
-Wire Wire Line
-	4450 5850 4400 5850
-Wire Wire Line
-	4400 5850 4400 6050
-Wire Wire Line
-	4400 6050 4350 6050
-Wire Wire Line
-	3950 5850 3900 5850
-Wire Wire Line
-	3900 5850 3900 6050
-Wire Wire Line
-	3900 6050 3350 6050
-$Comp
-L kbd:SK6812MINI L20
-U 1 1 5E606F6B
-P 3150 5550
-F 0 "L20" H 3150 5550 51  0000 C CNN
-F 1 "SK6812MINI" H 3150 5500 16  0000 C CNN
-F 2 "mykeyboardparts:SK6812mini" H 3150 5550 60  0001 C CNN
-F 3 "" H 3150 5550 60  0001 C CNN
-	1    3150 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2950 5850 2900 5850
-Wire Wire Line
-	2900 5850 2900 6050
-Wire Wire Line
-	2900 6050 2850 6050
-Wire Wire Line
-	2450 5850 2450 5450
-Wire Wire Line
-	2450 5450 2950 5450
-Wire Wire Line
-	3450 5450 3400 5450
-Wire Wire Line
-	3400 5450 3400 5650
-Wire Wire Line
-	3400 5650 3350 5650
-Wire Wire Line
-	3850 5650 3900 5650
-Wire Wire Line
-	3900 5650 3900 5450
-Wire Wire Line
-	3900 5450 3950 5450
-Wire Wire Line
-	2450 6050 2450 6150
-Wire Wire Line
-	2450 6150 2400 6150
-Wire Wire Line
-	2450 6150 2950 6150
-Wire Wire Line
-	3950 6150 3950 6050
-Connection ~ 2450 6150
-Wire Wire Line
-	3950 6150 4450 6150
-Wire Wire Line
-	4450 6150 4450 6050
-Connection ~ 3950 6150
-Wire Wire Line
-	4450 6150 4950 6150
-Wire Wire Line
-	4950 6150 4950 6050
-Connection ~ 4450 6150
-Wire Wire Line
-	5450 6050 5450 6150
-Wire Wire Line
-	5450 6150 4950 6150
-Connection ~ 4950 6150
-Wire Wire Line
-	4350 5650 4400 5650
-Wire Wire Line
-	4400 5650 4400 5450
-Wire Wire Line
-	4400 5450 4450 5450
-Wire Wire Line
-	4850 5650 4900 5650
-Wire Wire Line
-	4900 5650 4900 5450
-Wire Wire Line
-	4900 5450 4950 5450
-Wire Wire Line
-	5450 5450 5400 5450
-Wire Wire Line
-	5400 5450 5400 5650
-Wire Wire Line
-	5400 5650 5350 5650
-Wire Wire Line
-	5850 5650 5900 5650
-Wire Wire Line
-	5900 5650 5900 5450
-Wire Wire Line
-	5900 5450 5950 5450
-Wire Wire Line
-	6350 5650 6400 5650
-Wire Wire Line
-	6400 5650 6400 5450
-Wire Wire Line
-	6400 5450 6450 5450
-Wire Wire Line
-	6850 5650 7350 5650
-Wire Wire Line
-	7350 5650 7350 5250
-Wire Wire Line
-	6950 5050 6900 5050
-Wire Wire Line
-	6900 5050 6900 5250
-Wire Wire Line
-	6900 5250 6850 5250
-Wire Wire Line
-	6450 5050 6400 5050
-Wire Wire Line
-	6400 5050 6400 5250
-Wire Wire Line
-	6400 5250 6350 5250
-Wire Wire Line
-	5950 5050 5900 5050
-Wire Wire Line
-	5900 5050 5900 5250
-Wire Wire Line
-	5900 5250 5850 5250
-Wire Wire Line
-	5350 5250 5400 5250
-Wire Wire Line
-	5400 5250 5400 5050
-Wire Wire Line
-	5400 5050 5450 5050
-Wire Wire Line
-	4950 5050 4900 5050
-Wire Wire Line
-	4900 5050 4900 5250
-Wire Wire Line
-	4900 5250 4850 5250
-Wire Wire Line
-	4450 5050 4400 5050
-Wire Wire Line
-	4400 5050 4400 5250
-Wire Wire Line
-	4400 5250 4350 5250
-Wire Wire Line
-	3950 5050 3900 5050
-Wire Wire Line
-	3900 5050 3900 5250
-Wire Wire Line
-	3900 5250 3850 5250
-Wire Wire Line
-	3450 5050 3400 5050
-Wire Wire Line
-	3400 5050 3400 5250
-Wire Wire Line
-	3400 5250 3350 5250
-Wire Wire Line
-	2950 5050 2900 5050
-Wire Wire Line
-	2900 5050 2900 5250
-Wire Wire Line
-	2900 5250 2850 5250
-Wire Wire Line
-	2400 5050 2450 5050
-Wire Wire Line
-	6450 4650 6400 4650
-Wire Wire Line
-	6400 4650 6400 4850
-Wire Wire Line
-	6400 4850 6350 4850
-Wire Wire Line
-	5950 4650 5900 4650
-Wire Wire Line
-	5900 4650 5900 4850
-Wire Wire Line
-	5900 4850 5850 4850
-Wire Wire Line
-	4450 4650 4400 4650
-Wire Wire Line
-	4400 4650 4400 4850
-Wire Wire Line
-	4400 4850 4350 4850
-Wire Wire Line
-	3950 4650 3900 4650
-Wire Wire Line
-	3900 4650 3900 4850
-Wire Wire Line
-	3900 4850 3850 4850
-Wire Wire Line
-	3450 4650 3400 4650
-Wire Wire Line
-	3400 4650 3400 4850
-Wire Wire Line
-	3400 4850 3350 4850
-Wire Wire Line
-	2850 4850 2900 4850
-Wire Wire Line
-	2900 4850 2900 4650
-Wire Wire Line
-	2900 4650 2950 4650
-Wire Wire Line
-	4850 4850 4900 4850
-Wire Wire Line
-	4900 4850 4900 4650
-Wire Wire Line
-	4900 4650 5450 4650
-Wire Wire Line
-	6950 4650 6900 4650
-Wire Wire Line
-	6900 4650 6900 4850
-Wire Wire Line
-	6900 4850 6850 4850
-Wire Wire Line
-	2400 5350 2450 5350
-Wire Wire Line
-	2450 5350 2450 5250
-Wire Wire Line
-	2450 5350 2950 5350
-Wire Wire Line
-	2950 5350 2950 5250
-Connection ~ 2450 5350
-Wire Wire Line
-	2950 5350 3350 5350
-Wire Wire Line
-	3450 5350 3450 5250
-Connection ~ 2950 5350
-Wire Wire Line
-	3450 5350 3850 5350
-Wire Wire Line
-	3950 5350 3950 5250
-Connection ~ 3450 5350
-Wire Wire Line
-	3950 5350 4350 5350
-Connection ~ 3950 5350
-Wire Wire Line
-	4450 5350 4450 5250
-Wire Wire Line
-	4450 5350 4850 5350
-Wire Wire Line
-	4950 5350 4950 5250
-Connection ~ 4450 5350
-Wire Wire Line
-	4950 5350 5350 5350
-Wire Wire Line
-	5450 5350 5450 5250
-Connection ~ 4950 5350
-Wire Wire Line
-	5950 5350 5950 5250
-Connection ~ 5450 5350
-Wire Wire Line
-	5950 5350 6350 5350
-Wire Wire Line
-	6450 5350 6450 5250
-Connection ~ 5950 5350
-Wire Wire Line
-	6450 5350 6850 5350
-Wire Wire Line
-	6950 5350 6950 5250
-Connection ~ 6450 5350
-Wire Wire Line
-	7400 4950 7350 4950
-Wire Wire Line
-	7350 4950 7350 5050
-Wire Wire Line
-	7350 4950 6950 4950
-Wire Wire Line
-	6950 4950 6950 4850
-Connection ~ 7350 4950
-Wire Wire Line
-	6950 4950 6850 4950
-Wire Wire Line
-	6850 4950 6850 5050
-Connection ~ 6950 4950
-Wire Wire Line
-	6450 4850 6450 4950
-Wire Wire Line
-	6450 4950 6850 4950
-Connection ~ 6850 4950
-Wire Wire Line
-	5950 4850 5950 4950
-Wire Wire Line
-	5950 4950 6350 4950
-Connection ~ 6450 4950
-Wire Wire Line
-	6350 5050 6350 4950
-Connection ~ 6350 4950
-Wire Wire Line
-	6350 4950 6450 4950
-Wire Wire Line
-	5450 4850 5450 4950
-Wire Wire Line
-	5450 4950 5850 4950
-Connection ~ 5950 4950
-Wire Wire Line
-	5850 5050 5850 4950
-Connection ~ 5850 4950
-Wire Wire Line
-	5850 4950 5950 4950
-Wire Wire Line
-	5350 5050 5350 4950
-Wire Wire Line
-	5350 4950 5450 4950
-Connection ~ 5450 4950
-Wire Wire Line
-	5350 4950 4850 4950
-Wire Wire Line
-	4850 4950 4850 5050
-Connection ~ 5350 4950
-Wire Wire Line
-	4850 4950 4450 4950
-Wire Wire Line
-	4450 4950 4450 4850
-Connection ~ 4850 4950
-Wire Wire Line
-	3950 4850 3950 4950
-Wire Wire Line
-	3950 4950 4350 4950
-Connection ~ 4450 4950
-Wire Wire Line
-	4350 5050 4350 4950
-Connection ~ 4350 4950
-Wire Wire Line
-	4350 4950 4450 4950
-Wire Wire Line
-	3450 4850 3450 4950
-Wire Wire Line
-	3450 4950 3850 4950
-Connection ~ 3950 4950
-Wire Wire Line
-	3850 5050 3850 4950
-Connection ~ 3850 4950
-Wire Wire Line
-	3850 4950 3950 4950
-Wire Wire Line
-	2950 4850 2950 4950
-Wire Wire Line
-	2950 4950 3350 4950
-Connection ~ 3450 4950
-Wire Wire Line
-	3350 5050 3350 4950
-Connection ~ 3350 4950
-Wire Wire Line
-	3350 4950 3450 4950
-Wire Wire Line
-	2850 5050 2850 4950
-Wire Wire Line
-	2850 4950 2950 4950
-Connection ~ 2950 4950
-Wire Wire Line
-	2450 4850 2450 4950
-Wire Wire Line
-	2450 4950 2850 4950
-Connection ~ 2850 4950
-Wire Wire Line
-	2450 4650 2400 4650
-Wire Wire Line
-	2400 4650 2400 5050
-Text GLabel 6600 6050 2    50   Input ~ 0
-LED
-$Comp
-L kbd:SW_PUSH MSW1
-U 1 1 5E984BE8
-P 6300 6050
-F 0 "MSW1" H 6300 6305 50  0000 C CNN
-F 1 "SW_PUSH" H 6300 6214 50  0000 C CNN
-F 2 "mykeyboardparts:mercury_switch" H 6300 6050 50  0001 C CNN
-F 3 "" H 6300 6050 50  0000 C CNN
-	1    6300 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR09
-U 1 1 5E987A94
-P 7400 5750
-F 0 "#PWR09" H 7400 5600 50  0001 C CNN
-F 1 "VCC" V 7417 5878 50  0000 L CNN
-F 2 "" H 7400 5750 50  0001 C CNN
-F 3 "" H 7400 5750 50  0001 C CNN
-	1    7400 5750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5850 5850 5850 5750
-Wire Wire Line
-	5850 5750 5950 5750
-Wire Wire Line
-	6450 5650 6450 5750
-Connection ~ 6450 5750
-Wire Wire Line
-	6450 5750 7400 5750
-Wire Wire Line
-	5950 5650 5950 5750
-Connection ~ 5950 5750
-Wire Wire Line
-	5950 5750 6450 5750
-Wire Wire Line
-	5450 5650 5450 5750
-Wire Wire Line
-	5450 5750 5850 5750
-Connection ~ 5850 5750
-Wire Wire Line
-	4950 5650 4950 5750
-Wire Wire Line
-	4950 5750 5350 5750
-Connection ~ 5450 5750
-Wire Wire Line
-	5350 5850 5350 5750
-Connection ~ 5350 5750
-Wire Wire Line
-	5350 5750 5450 5750
-Wire Wire Line
-	2950 5650 2950 5750
-Wire Wire Line
-	2950 5750 3350 5750
-Connection ~ 4950 5750
-Wire Wire Line
-	4450 5650 4450 5750
-Connection ~ 4450 5750
-Wire Wire Line
-	4450 5750 4850 5750
-Wire Wire Line
-	4850 5850 4850 5750
-Connection ~ 4850 5750
-Wire Wire Line
-	4850 5750 4950 5750
-Wire Wire Line
-	4350 5850 4350 5750
-Connection ~ 4350 5750
-Wire Wire Line
-	4350 5750 4450 5750
-Wire Wire Line
-	3950 5650 3950 5750
-Connection ~ 3950 5750
-Wire Wire Line
-	3950 5750 4350 5750
-Wire Wire Line
-	3450 5650 3450 5750
-Connection ~ 3450 5750
-Wire Wire Line
-	3450 5750 3950 5750
-Wire Wire Line
-	3350 5750 3350 5850
-Connection ~ 3350 5750
-Wire Wire Line
-	3350 5750 3450 5750
-Wire Wire Line
-	2850 5850 2850 5750
-Wire Wire Line
-	2850 5750 2950 5750
-Connection ~ 2950 5750
-Wire Wire Line
-	2950 6050 2950 6150
-Connection ~ 2950 6150
-Wire Wire Line
-	2950 6150 3950 6150
-Wire Wire Line
-	2400 4550 2850 4550
-Wire Wire Line
-	2850 4550 2850 4650
-Wire Wire Line
-	2850 4550 3350 4550
-Wire Wire Line
-	3350 4550 3350 4650
-Connection ~ 2850 4550
-Wire Wire Line
-	3350 4550 3850 4550
-Wire Wire Line
-	3850 4550 3850 4650
-Connection ~ 3350 4550
-Wire Wire Line
-	3850 4550 4350 4550
-Wire Wire Line
-	4350 4550 4350 4650
-Connection ~ 3850 4550
-Wire Wire Line
-	4350 4550 4850 4550
-Wire Wire Line
-	4850 4550 4850 4650
-Connection ~ 4350 4550
-Wire Wire Line
-	4850 4550 5850 4550
-Wire Wire Line
-	5850 4550 5850 4650
-Connection ~ 4850 4550
-Wire Wire Line
-	5850 4550 6350 4550
-Wire Wire Line
-	6350 4550 6350 4650
-Connection ~ 5850 4550
-Wire Wire Line
-	6350 4550 6850 4550
-Wire Wire Line
-	7350 4550 7350 4650
-Connection ~ 6350 4550
-Wire Wire Line
-	6850 4650 6850 4550
-Connection ~ 6850 4550
-Wire Wire Line
-	6850 4550 7350 4550
-Wire Wire Line
-	6850 5450 6850 5350
-Connection ~ 6850 5350
-Wire Wire Line
-	6850 5350 6950 5350
-Wire Wire Line
-	3350 5450 3350 5350
-Connection ~ 3350 5350
-Wire Wire Line
-	3350 5350 3450 5350
-Wire Wire Line
-	3800 5450 3850 5450
-Wire Wire Line
-	3850 5450 3850 5350
-Connection ~ 3850 5450
-Connection ~ 3850 5350
-Wire Wire Line
-	3850 5350 3950 5350
-Wire Wire Line
-	4350 5450 4350 5350
-Connection ~ 4350 5350
-Wire Wire Line
-	4350 5350 4450 5350
-Wire Wire Line
-	4850 5450 4850 5350
-Connection ~ 4850 5350
-Wire Wire Line
-	4850 5350 4950 5350
-Wire Wire Line
-	5350 5450 5350 5350
-Connection ~ 5350 5350
-Wire Wire Line
-	5350 5350 5450 5350
-Wire Wire Line
-	5850 5450 5850 5350
-Wire Wire Line
-	5450 5350 5850 5350
-Connection ~ 5850 5350
-Wire Wire Line
-	5850 5350 5950 5350
-Wire Wire Line
-	6350 5450 6350 5350
-Connection ~ 6350 5350
-Wire Wire Line
-	6350 5350 6450 5350
-$Comp
-L Connector_Generic:Conn_01x03 J1
-U 1 1 5EC721B6
-P 5900 6750
-F 0 "J1" H 5980 6792 50  0000 L CNN
-F 1 "Conn_01x03" H 5980 6701 50  0000 L CNN
-F 2 "mykeyboardparts:StripLED_rev" H 5900 6750 50  0001 C CNN
-F 3 "~" H 5900 6750 50  0001 C CNN
-	1    5900 6750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR012
-U 1 1 5ECBEC89
-P 5800 6550
-F 0 "#PWR012" H 5800 6400 50  0001 C CNN
-F 1 "VCC" V 5800 6700 50  0000 L CNN
-F 2 "" H 5800 6550 50  0001 C CNN
-F 3 "" H 5800 6550 50  0001 C CNN
-	1    5800 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5ECBFC87
-P 6000 6550
-F 0 "#PWR011" H 6000 6300 50  0001 C CNN
-F 1 "GND" V 6000 6400 50  0000 R CNN
-F 2 "" H 6000 6550 50  0001 C CNN
-F 3 "" H 6000 6550 50  0001 C CNN
-	1    6000 6550
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG01
 U 1 1 5ECDD064
 P 4700 1100
-F 0 "#FLG0101" H 4700 1175 50  0001 C CNN
+F 0 "#FLG01" H 4700 1175 50  0001 C CNN
 F 1 "PWR_FLAG" H 4700 1250 50  0000 C CNN
 F 2 "" H 4700 1100 50  0001 C CNN
 F 3 "~" H 4700 1100 50  0001 C CNN
@@ -2057,10 +952,10 @@ F 3 "~" H 4700 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR0101
+L power:VCC #PWR04
 U 1 1 5ECE0E45
 P 4700 1100
-F 0 "#PWR0101" H 4700 950 50  0001 C CNN
+F 0 "#PWR04" H 4700 950 50  0001 C CNN
 F 1 "VCC" H 4700 1250 50  0000 C CNN
 F 2 "" H 4700 1100 50  0001 C CNN
 F 3 "" H 4700 1100 50  0001 C CNN
@@ -2069,10 +964,10 @@ F 3 "" H 4700 1100 50  0001 C CNN
 $EndComp
 NoConn ~ 2250 850 
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR05
 U 1 1 5ED2A565
 P 5050 1100
-F 0 "#PWR0102" H 5050 850 50  0001 C CNN
+F 0 "#PWR05" H 5050 850 50  0001 C CNN
 F 1 "GND" H 5050 950 50  0000 C CNN
 F 2 "" H 5050 1100 50  0001 C CNN
 F 3 "" H 5050 1100 50  0001 C CNN
@@ -2080,22 +975,134 @@ F 3 "" H 5050 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L power:PWR_FLAG #FLG02
 U 1 1 5ED8C1F3
 P 5050 1100
-F 0 "#FLG0102" H 5050 1175 50  0001 C CNN
+F 0 "#FLG02" H 5050 1175 50  0001 C CNN
 F 1 "PWR_FLAG" H 5050 1250 50  0000 C CNN
 F 2 "" H 5050 1100 50  0001 C CNN
 F 3 "~" H 5050 1100 50  0001 C CNN
 	1    5050 1100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7350 4850
+Connection ~ 700  3650
+Connection ~ 1300 3850
 Wire Wire Line
-	5850 6050 5900 6050
+	1300 3850 2300 3850
+Connection ~ 5700 2550
 Wire Wire Line
-	5900 6550 5900 6050
-Connection ~ 5900 6050
+	6300 2750 5300 2750
 Wire Wire Line
-	5900 6050 6000 6050
+	1200 2750 2300 2750
+Wire Wire Line
+	700  4200 700  4750
+Connection ~ 700  4200
+Text GLabel 1200 4950 0    50   Input ~ 0
+row5
+Text GLabel 1200 5500 0    50   Input ~ 0
+row6
+Wire Wire Line
+	1200 3300 2300 3300
+Wire Wire Line
+	700  2450 700  3650
+Connection ~ 1700 4200
+Wire Wire Line
+	1700 4200 1700 4750
+Connection ~ 700  4750
+Wire Wire Line
+	700  4750 700  5300
+Connection ~ 1300 4950
+Wire Wire Line
+	1300 4950 2300 4950
+Connection ~ 3300 4950
+Wire Wire Line
+	1200 5500 1300 5500
+Connection ~ 1300 5500
+Connection ~ 3300 5500
+Wire Wire Line
+	3300 5500 4300 5500
+Connection ~ 2700 3650
+Wire Wire Line
+	2700 3650 2700 4200
+Connection ~ 2700 4200
+Wire Wire Line
+	2700 4200 2700 4750
+Connection ~ 2700 4750
+Wire Wire Line
+	2700 4750 2700 5300
+Wire Wire Line
+	1300 5500 3300 5500
+Connection ~ 3700 4200
+Wire Wire Line
+	3700 4200 3700 4750
+Connection ~ 3700 4750
+Wire Wire Line
+	3700 4750 3700 5300
+Connection ~ 1700 3100
+Connection ~ 2700 3100
+Connection ~ 3700 3100
+Connection ~ 4700 3100
+Wire Wire Line
+	5700 2550 5700 3100
+Wire Wire Line
+	5300 3850 6300 3850
+$Comp
+L Device:D_Small D16
+U 1 1 5E515ED9
+P 6300 3750
+F 0 "D16" V 6346 3682 50  0000 R CNN
+F 1 "D_Small" V 6255 3682 50  0000 R CNN
+F 2 "mykeyboardparts:Diode_SMD" V 6300 3750 50  0001 C CNN
+F 3 "~" V 6300 3750 50  0001 C CNN
+	1    6300 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3650 5700 4200
+Connection ~ 5700 3650
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 5E515ECF
+P 6000 3650
+F 0 "SW16" H 6000 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 3814 50  0000 C CNN
+F 2 "mykeyboardparts:MX-ALPS-Choc-X-straight-oneside" H 6000 3650 50  0001 C CNN
+F 3 "" H 6000 3650 50  0000 C CNN
+	1    6000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3100 5700 3650
+Connection ~ 5700 3100
+Connection ~ 4300 4950
+Wire Wire Line
+	4300 4950 5300 4950
+Connection ~ 4300 5500
+Wire Wire Line
+	4300 5500 5300 5500
+Connection ~ 5300 5500
+Wire Wire Line
+	5300 5500 6300 5500
+Connection ~ 5300 4950
+Wire Wire Line
+	5300 4950 6300 4950
+Connection ~ 5700 4200
+Wire Wire Line
+	5700 4200 5700 4750
+Connection ~ 5700 4750
+Wire Wire Line
+	5700 4750 5700 5300
+Connection ~ 4700 4200
+Wire Wire Line
+	4700 4200 4700 3650
+Connection ~ 4700 4750
+Wire Wire Line
+	4700 4750 4700 4200
+Text GLabel 2250 1850 2    50   Input ~ 0
+row5
+Text GLabel 2250 1950 2    50   Input ~ 0
+row6
+NoConn ~ 2250 1250
+NoConn ~ 2250 1350
+NoConn ~ 850  850 
 $EndSCHEMATC
